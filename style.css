@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    border-radius: 0;
+    padding: 5px 10px;
+}
+
+.btnwrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 550px;
+    padding: 20px;
+}
+
+.jokeWrapper {
+    display: flex;
+    justify-content: space-between;
+}   
+
+main {
+    margin-top: 150px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
